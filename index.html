@@ -2,111 +2,64 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Invomex - Versión Simple</title>
-    <style>
-        /* Estilo global */
-        html {
-            scroll-behavior: smooth; /* Desplazamiento suave */
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-        }
-
-        header {
-            background-color: #003366;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-
-        nav {
-            background-color: #005599;
-            padding: 10px;
-            text-align: center;
-        }
-
-        nav a {
-            color: white;
-            margin: 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        .hero {
-            background-image: url('https://www.invomex.com/_files/ugd/17e3c0_d58c5bca6a7743a3a4fcb0b69cf21777~mv2.jpg');
-            background-size: cover;
-            background-position: center;
-            height: 300px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            text-shadow: 1px 1px 4px black;
-            font-size: 2em;
-        }
-
-        .section {
-            padding: 60px 40px;
-            text-align: center;
-        }
-
-        footer {
-            background-color: #003366;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-    </style>
+    <title>Invomex</title>
 </head>
+
 <body>
+    <!-- Encabezado -->
+    <header id="inicio">
+      <h1>INVOMEX</h1>
+    </header>
 
-<!-- ENCABEZADO -->
-<header id="inicio">
-    <h1>INVOMEX</h1>
-</header>
+    <!-- Menu de navegaciones -->
+    <nav>
+        <a href="#inicio">Inicio<a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="srevicios">Servicios</a> 
+        <a href="contacto">Contacto</a>  
+    </nav>
 
-<!-- MENÚ DE NAVEGACIÓN -->
-<nav>
-    <a href="#inicio">Inicio</a>
-    <a href="#nosotros">Nosotros</a>
-    <a href="#servicios">Servicios</a>
-    <a href="#contacto">Contacto</a>
-</nav>
+    <!-- Contenido principal -->
+    <main>
 
-<!-- PORTADA -->
-<div class="hero">
-    <div>Innovación y Tecnología</div>
-</div>
+         <!-- Portada -->
+        <section>
+            <h2>Inovacion y tecnologia</h2>
+            <img src="https://media.licdn.com/dms/image/v2/C561BAQGLihVvbKxfmA/company-background_10000/company-background_10000/0/1584031835523?e=2147483647&v=beta&t=w6vN5DwVgccXxlmtwvdwls_Y5vDez7YcZm5IzhwchjQ" alt="">
+        </section>
 
-<!-- SECCIÓN: NOSOTROS -->
-<div class="section" id="nosotros">
-    <h2>¿Quiénes somos?</h2>
-    <p>Somos una empresa mexicana que ofrece soluciones tecnológicas e innovación para la industria.</p>
-</div>
+        <!-- Seccion de nosotros -->
+        <section id="Servicios">
+            <h2>servicios</h2>
+            <ul>
+                <li>Diseño mecanico</li>
+                <li>Automatización</li>
+                <li>Integración industrial</li>   
+            </ul>           
+        </section>
+        
+        <!-- Seccion de contacto -->
+        <section id="Contacto">
+            <h2>Contacto</h2>
+            <dl>
+                <dt>Correo</dt>
+                <dd>contacto@invomex.com</dd>
 
-<!-- SECCIÓN: SERVICIOS -->
-<div class="section" id="servicios">
-    <h2>Servicios</h2>
-    <p>Ofrecemos diseño mecánico, automatización, integración industrial, entre otros.</p>
-</div>
+                <dt>Telefono</dt>
+                <dd>+52 81 1234 5678</dd>
+            </dl>
 
-<!-- SECCIÓN: CONTACTO -->
-<div class="section" id="contacto">
-    <h2>Contacto</h2>
-    <p>Escríbenos a: contacto@invomex.com</p>
-    <p>Teléfono: +52 81 1234 5678</p>
-</div>
+        </section>
 
-<!-- PIE DE PÁGINA -->
-<footer>
-    <p>© 2025 INVOMEX. Todos los derechos reservados.</p>
-</footer>
+    </main>
+
+    <!-- Pie de pagina -->
+    <footer>
+        <p>© 2025 INVOMEX. Todos los derechos reservados.</p>
+    </footer> 
 
 </body>
 </html>
+
+
+        
