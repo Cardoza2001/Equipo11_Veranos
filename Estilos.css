@@ -1,0 +1,81 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #005599;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 15px;    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section img {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.hero {
+    background-image: url('https://www.invomex.com/_files/ugd/17e3c0_d58c5bca6a7743a3a4fcb0b69cf21777~mv2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 205px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+    font-size: 2em;
+}
+
+.section {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.nosotros {
+    text-align: justify;
+    line-height: 1.6;          /* mejora la lectura con espacio entre líneas */
+    margin: 1em 0;             /* margen arriba y abajo */
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    color: #333;
+
+}
+
+.orden {
+    padding: 0 40px;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
